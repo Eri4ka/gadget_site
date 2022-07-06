@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="scss/mainstyle.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header__scroll">
+            <div class="header__scroll__line">
+                <div class="header__scroll__line__complete"></div>
+            </div>
+        </div>
+        <div class="header__main">
+            <div class="header__search">
+                <div class="header__search__field">
+                    <input placeholder="Искать" type="text" class="header__search__field__input" data-id="input-search">
+                </div>
+            </div>
+            <div class="header__timer">
+                <div class="header__timer__title">До выхода нового IPhone 14 осталось</div>
+                <div class="header__timer__clock">
+                    <div class="header__timer__clock__item">
+                        <span id="days">50</span>
+                        Дней
+                    </div>
+                    <div class="header__timer__clock__item">
+                        <span id="hours">10</span>
+                        Часов
+                    </div>
+                    <div class="header__timer__clock__item">
+                        <span id="minutes">35</span>
+                        Минут
+                    </div>
+                    <div class="header__timer__clock__item">
+                        <span id="seconds">54</span>
+                        Секунд
+                    </div>
+                </div>
+            </div>
+            <div class="header__client">
+                <div class="header__client__orders">
+                    <div class="header__client__orders__icon">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 121.48 122.88" style="enable-background:new 0 0 121.48 122.88" xml:space="preserve">
+                            <g>
+                                <path d="M2.74,19.11L59.65,0.16c0.68-0.23,1.39-0.21,2.02,0.01l0-0.01l57.66,19.75c1.42,0.48,2.28,1.86,2.15,3.29 c0.01,0.07,0.01,0.15,0.01,0.23v67.06h-0.01c0,1.16-0.64,2.28-1.75,2.84l-57.25,29.09c-0.48,0.29-1.05,0.46-1.65,0.46 c-0.64,0-1.23-0.19-1.73-0.51L1.72,92.44c-1.08-0.57-1.71-1.67-1.71-2.82H0V22.27C0,20.66,1.19,19.33,2.74,19.11L2.74,19.11z M15.33,68.24c0-1.22,0.99-2.22,2.22-2.22c1.22,0,2.22,0.99,2.22,2.22v9.03c0,0.07,0,0.15-0.01,0.22c0,0.31,0.04,0.56,0.11,0.75 c0.03,0.06,0.06,0.12,0.12,0.16l5.53,2.57c1.11,0.51,1.59,1.83,1.08,2.93c-0.51,1.11-1.82,1.59-2.93,1.08l-5.66-2.63 c-0.1-0.04-0.2-0.09-0.3-0.16c-0.91-0.57-1.54-1.34-1.93-2.29c-0.31-0.76-0.45-1.6-0.44-2.5l0-0.14V68.24L15.33,68.24z M57.64,114.44V50.3L6.38,27.06V87.7L57.64,114.44L57.64,114.44z M115.1,27.82L64.02,50.33v64.17l51.08-25.96V27.82L115.1,27.82z M60.62,6.53L12.14,22.68l48.71,22.09l48.71-21.47L60.62,6.53L60.62,6.53z"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="header__client__orders__title">Заказы</div>
+                    <span class="header__client__orders__count">0</span>
+                </div>
+                <div class="header__client__auth">
+                    <div class="header__client__auth__icon">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                            <g>
+                                <path d="M500,559.4c-109.5,0-198.6-89.1-198.6-198.7c0-109.5,89.1-198.6,198.6-198.6c109.5,0,198.6,89.1,198.6,198.6C698.6,470.3,609.5,559.4,500,559.4z M500,203.3c-86.8,0-157.4,70.6-157.4,157.5c0,86.9,70.6,157.5,157.4,157.5c86.8,0,157.5-70.6,157.5-157.5C657.4,273.9,586.8,203.3,500,203.3z"/>
+                                <path d="M812.7,870.9c-11.4,0-20.6-9.2-20.6-20.6c0-160.5-131-291.1-292.1-291.1c-161,0-292,130.6-292,291.1c0,11.4-9.2,20.6-20.6,20.6c-11.4,0-20.6-9.2-20.6-20.6C166.8,667.1,316.3,518,500,518c183.7,0,333.3,149.1,333.3,332.3C833.2,861.7,824,870.9,812.7,870.9z"/>
+                                <path d="M500,990C229.8,990,10,770.2,10,500C10,229.8,229.8,10,500,10c270.1,0,490,219.8,490,490C990,770.2,770.2,990,500,990z M500,51.2C252.5,51.2,51.2,252.5,51.2,500c0,247.5,201.3,448.8,448.9,448.8c247.5,0,448.8-201.3,448.8-448.8C948.8,252.5,747.5,51.2,500,51.2z"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="header__client__auth__title">Войти</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main__movies">
+            <ul class="main__movies__list">
+                <li class="main__movies__list__item main__movies__list__item__active"></li>
+                <li class="main__movies__list__item"></li>
+                <li class="main__movies__list__item"></li>
+            </ul>
+        </div>
+        <div class="main__content">
+            <div class="main__content__wrapper">
+                <div class="main__content__wrapper__images">
+                    <div class="main__content__wrapper__field">
+                        <img class="main__content__wrapper__images__item">
+                        <img class="main__content__wrapper__images__item">
+                    </div>
+                </div>
+                <div class="main__content__wrapper__prev"></div>
+                <div class="main__content__wrapper__next"></div>
+                <div class="main__content__wrapper__titnordr">
+                    <div class="main__content__wrapper__title"></div>
+                    <button class="main__content__wrapper__order">Заказать</button>
+                </div>
+                <div class="main__content__wrapper__cost"></div>
+                <div class="main__content__wrapper__description"></div>
+                <div class="main__content__wrapper__chars">
+                    <div class="main__content__wrapper__chars__title" id="qq">
+                        <div class="main__content__wrapper__chars__title__text showed">Характеристики</div>
+                    </div>
+                    <div class="main__content__wrapper__chars__values">
+                        <div class="main__content__wrapper__chars__values__leftblock">
+                            <div class="main__content__wrapper__chars__values__leftblock__color">Цвет</div>
+                            <div class="main__content__wrapper__chars__values__leftblock__mod">Модификация</div>
+                        </div>
+                        <div class="main__content__wrapper__chars__values__rightblock">
+                            <div class="main__content__wrapper__chars__values__rightblock__colorvalue"></div>
+                            <div class="main__content__wrapper__chars__values__rightblock__modvalue"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__content__wrapper">
+                <div class="main__content__wrapper__images">
+                    <div class="main__content__wrapper__field">
+                        <img class="main__content__wrapper__images__item">
+                        <img class="main__content__wrapper__images__item">
+                    </div>
+                </div>
+                <div class="main__content__wrapper__prev"></div>
+                <div class="main__content__wrapper__next"></div>
+                <div class="main__content__wrapper__titnordr">
+                    <div class="main__content__wrapper__title"></div>
+                    <button class="main__content__wrapper__order">Заказать</button>
+                </div>
+                <div class="main__content__wrapper__cost"></div>
+                <div class="main__content__wrapper__description"></div>
+                <div class="main__content__wrapper__chars">
+                    <div class="main__content__wrapper__chars__title" id="qq">
+                        <div class="main__content__wrapper__chars__title__text showed">Характеристики</div>
+                    </div>
+                    <div class="main__content__wrapper__chars__values">
+                        <div class="main__content__wrapper__chars__values__leftblock">
+                            <div class="main__content__wrapper__chars__values__leftblock__color">Цвет</div>
+                            <div class="main__content__wrapper__chars__values__leftblock__mod">Модификация</div>
+                        </div>
+                        <div class="main__content__wrapper__chars__values__rightblock">
+                            <div class="main__content__wrapper__chars__values__rightblock__colorvalue"></div>
+                            <div class="main__content__wrapper__chars__values__rightblock__modvalue"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__content__wrapper">
+                <div class="main__content__wrapper__images">
+                    <div class="main__content__wrapper__field">
+                        <img class="main__content__wrapper__images__item">
+                        <img class="main__content__wrapper__images__item">
+                    </div>
+                </div>
+                <div class="main__content__wrapper__prev"></div>
+                <div class="main__content__wrapper__next"></div>
+                <div class="main__content__wrapper__titnordr">
+                    <div class="main__content__wrapper__title"></div>
+                    <button class="main__content__wrapper__order">Заказать</button>
+                </div>
+                <div class="main__content__wrapper__cost"></div>
+                <div class="main__content__wrapper__description"></div>
+                <div class="main__content__wrapper__chars">
+                    <div class="main__content__wrapper__chars__title" id="qq">
+                        <div class="main__content__wrapper__chars__title__text showed">Характеристики</div>
+                    </div>
+                    <div class="main__content__wrapper__chars__values">
+                        <div class="main__content__wrapper__chars__values__leftblock">
+                            <div class="main__content__wrapper__chars__values__leftblock__color">Цвет</div>
+                            <div class="main__content__wrapper__chars__values__leftblock__mod">Модификация</div>
+                        </div>
+                        <div class="main__content__wrapper__chars__values__rightblock">
+                            <div class="main__content__wrapper__chars__values__rightblock__colorvalue"></div>
+                            <div class="main__content__wrapper__chars__values__rightblock__modvalue"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__slider">
+            <div class="main__slider__open"></div>
+            <div class="main__slider__background">
+                <ul class="main__slider__background__list">
+                    <!-- <li class="main__slider__background__list__item">Телефоны</li>
+                    <li class="main__slider__background__list__item">Планшеты</li>
+                    <li class="main__slider__background__list__item">Ноутбуки</li>
+                    <li class="main__slider__background__list__item">Смарт-часы</li>
+                    <li class="main__slider__background__list__item">Аксессуары</li> -->        
+                </ul>
+                <button class="main__slider__background__btn"></button>
+            </div>
+        </div>
+        <div class="main__new">
+            <div class="main__new__previous"></div>
+            <div class="main__new__title">Новинки</div>
+            <div class="main__new__items">
+                <div class="main__new__wrapper">
+                <!-- <div class="main__new__items__item">
+                    <img class="main__new__items__item__image" src="https://images.biggeek.ru/1/435/10e8/8865-9698373-908MMEF2_AV1_right.jpg">
+                    <div class="main__new__items__item__title">AirPods Pro</div>
+                    <div class="main__new__items__item__cost">19900 RUB</div>
+                    <div class="main__new__items__item__hover">
+                        <div class="main__new__items__item__wrap">
+                            <img class="main__new__items__item__wrap__img" src="https://images.biggeek.ru/1/435/10e8/8865-9698373-908MMEF2_AV1_right.jpg">
+                            <div class="main__new__items__item__title">AirPods Pro 2022</div>
+                            <div class="main__new__items__item__wrap__desc">Каждый раз оправдывать самые высокие ожидания – сложно, но Apple это удаётся. С iPhone 13 Pro каждый сценарий использования смартфона меняется.</div>
+                        </div>
+                        <div class="main__new__items__item__buy">
+                            <div class="main__new__items__item__cost">19900 RUB</div>
+                            <div class="main__new__items__item__buy__button">Заказать</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__new__items__item">
+                    <img class="main__new__items__item__image" src="https://images.biggeek.ru/1/435/10e8/8865-9698373-908MMEF2_AV1_right.jpg">
+                    <div class="main__new__items__item__title">AirPods Pro</div>
+                    <div class="main__new__items__item__cost">19900 RUB</div>
+                    <div class="main__new__items__item__hover">
+                        <div class="main__new__items__item__wrap">
+                            <img class="main__new__items__item__wrap__img" src="https://images.biggeek.ru/1/435/10e8/8865-9698373-908MMEF2_AV1_right.jpg">
+                            <div class="main__new__items__item__title">AirPods Pro 2022</div>
+                            <div class="main__new__items__item__wrap__desc">Каждый раз оправдывать самые высокие ожидания – сложно, но Apple это удаётся. С iPhone 13 Pro каждый сценарий использования смартфона меняется.</div>
+                        </div>
+                        <div class="main__new__items__item__buy">
+                            <div class="main__new__items__item__cost">19900 RUB</div>
+                            <div class="main__new__items__item__buy__button">Заказать</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__new__items__item">
+                    <img class="main__new__items__item__image" src="https://images.biggeek.ru/1/435/10e8/8865-9698373-908MMEF2_AV1_right.jpg">
+                    <div class="main__new__items__item__title">AirPods Pro</div>
+                    <div class="main__new__items__item__cost">19900 RUB</div>
+                    <div class="main__new__items__item__hover">
+                        <div class="main__new__items__item__wrap">
+                            <img class="main__new__items__item__wrap__img" src="https://images.biggeek.ru/1/435/10e8/8865-9698373-908MMEF2_AV1_right.jpg">
+                            <div class="main__new__items__item__title">AirPods Pro 2022</div>
+                            <div class="main__new__items__item__wrap__desc">Каждый раз оправдывать самые высокие ожидания – сложно, но Apple это удаётся. С iPhone 13 Pro каждый сценарий использования смартфона меняется.</div>
+                        </div>
+                        <div class="main__new__items__item__buy">
+                            <div class="main__new__items__item__cost">19900 RUB</div>
+                            <div class="main__new__items__item__buy__button">Заказать</div>
+                        </div>
+                    </div>
+                </div>
+                </div> -->
+            </div>
+            <div class="main__new__next"></div>
+        </div>
+    </div>
+    <div class="scrolltop">
+        <div class="scrolltop__item"></div>
+    </div>
+    
+    <div class="modal">
+        <div class="modal__wrapper">
+            <div class="modal__wrapper__content">
+                <form action="#">
+                    <div class="modal__wrapper__content__main">
+                        <div class="modal__wrapper__content__main__form">
+                            <div class="modal__wrapper__content__main__form__input first" data-id="input-phone">
+                                <input  placeholder="Телефон" type="phone" class="modal__wrapper__content__main__form__input__field" data-id="modal-phone">  
+                            </div>
+                            <div class="modal__wrapper__content__main__form__input second" data-id="input-email">
+                                <input  placeholder="Эл.почта" type="email" class="modal__wrapper__content__main__form__input__field" data-id="modal-email">
+                            </div>
+                            <div class="modal__wrapper__content__main__form__input third" data-id="input-name">
+                                <input  placeholder="Имя" type="text" class="modal__wrapper__content__main__form__input__field" data-id="modal-name">
+                            </div>
+                            <div class="modal__wrapper__content__main__form__input four" data-id="input-surname">
+                                <input  placeholder="Фамилия" type="text" class="modal__wrapper__content__main__form__input__field" data-id="modal-surname">
+                            </div>
+                        </div>
+                        <div class="modal__wrapper__content__main__order">
+                            <img class="modal__wrapper__content__main__order__image" src="https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iphone_11-wallpaper-screen-091019_inline.jpg.large.jpg">
+                            <div class="modal__wrapper__content__main__order__title"></div>
+                            <div class="modal__wrapper__content__main__order__cost"></div>
+                        </div>
+                    </div>
+                    <div class="modal__wrapper__content__exit">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="modal__wrapper__content__exit__button" width="20" height="20"
+                            viewBox="0 0 100 100" overflow="visible" enable-background="new 0 0 100 100" xml:space="preserve">
+                            <path stroke="#000" stroke-width="12" stroke-linecap="square" d="M 10,10 90,90 M 10,90 90,10"/>
+                        </svg>
+                    </div>
+                    <div class="modal__wrapper__content__send">
+                        <button class="modal__wrapper__content__send__button">Отправить</button>
+                    </div>
+                </form> 
+            </div>
+            <div class="modal__wrapper__contentsubmit">
+                <div class="modal__wrapper__contentsubmit__main">
+                    <img class="modal__wrapper__contentsubmit__main__image" src="https://www.seekpng.com/png/full/132-1323669_vector-icon-of-white-checkmark-on-green-circle.png">
+                    <div class="modal__wrapper__contentsubmit__main__text">Заказ оформлен</div>
+                </div>
+                <div class="modal__wrapper__content__exit">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="modal__wrapper__content__exit__button" width="20" height="20"
+                        viewBox="0 0 100 100" overflow="visible" enable-background="new 0 0 100 100" xml:space="preserve">
+                        <path stroke="#000" stroke-width="12" stroke-linecap="square" d="M 10,10 90,90 M 10,90 90,10"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="orders">
+        <div class="orders__wrapper">
+            <span class="orders__wrapper__exit">&#10006</span>
+            <div class="orders__wrapper__content">
+                <div class="orders__wrapper__content__title">Заказы</div>
+                <div class="orders__wrapper__content__list">
+                    <div class="orders__wrapper__content__list__total">
+                        Количество:
+                        <span class="orders__wrapper__content__list__total__count">0</span>
+                    </div>
+                    <div class="orders__wrapper__content__list__item">
+                        <div class="orders__wrapper__content__list__item__person">
+                            <div class="orders__wrapper__content__list__item__person__name">Ivan</div>
+                            <div class="orders__wrapper__content__list__item__person__surname">Noskov</div>
+                        </div>
+                        <div class="orders__wrapper__content__list__item__phone">89655411235</div>
+                        <div class="orders__wrapper__content__list__item__email">mail@mail.ru</div>
+                        <div class="orders__wrapper__content__list__item__good">
+                            <div class="orders__wrapper__content__list__item__good__l">
+                                <img class="orders__wrapper__content__list__item__good__l__image" src ="https://www.apple.com/newsroom/images/product/iphone/standard/iphonex_front_back_glass_big.jpg.large.jpg">
+                            </div>
+                            <div class="orders__wrapper__content__list__item__good__r">
+                                <div class="orders__wrapper__content__list__item__good__r__title">IPhone X</div>
+                                <div class="orders__wrapper__content__list__item__good__r__cost">59900 RUB</div>
+                            </div>
+                        </div>
+                        <div class="orders__wrapper__content__list__item__exit">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="orders__wrapper__content__list__item__exit__button" width="20" height="20" viewBox="0 0 100 100" overflow="visible" enable-background="new 0 0 100 100" xml:space="preserve">
+                                <path stroke="#000" stroke-width="12" stroke-linecap="square" d="M 10,10 90,90 M 10,90 90,10"/>
+                            </svg>  
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- <div class="auth">
+        <div class="auth__wrapper">
+            <div class="auth__wrapper__exit">&#10006</div>
+            <div class="auth__wrapper__content">
+                <div class="auth__wrapper__content__title">Вход в аккаунт</div>
+                <div class="auth__wrapper__content__form">
+                    <div class="auth__wrapper__content__form__input" data-id="email">
+                        <input placeholder="Эл.почта" type="text" class="auth__wrapper__content__form__input__field" data-id="auth-email">
+                    </div>
+                    <div class="auth__wrapper__content__form__input" data-id="pass">
+                        <input placeholder="Пароль" type="text" class="auth__wrapper__content__form__input__field" data-id="auth-pass">
+                    </div>
+                    <div class="auth__wrapper__content__form__button signin">Войти</div>
+                </div>
+                <div class="auth__wrapper__content__switch">Нет аккаунта?
+                    <span class="auth__wrapper__content__switch__span signup">Зарегистрироваться</span>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div class="auth">
+        <div class="auth__wrapper">
+            <div class="auth__wrapper__exit">&#10006</div>
+            <div class="auth__wrapper__content">
+                <div class="auth__wrapper__content__title">Аккаунт</div>
+                <div class="auth__wrapper__content__form">
+                    <div class="auth__wrapper__content__form__meta">
+                        <div class="auth__wrapper__content__form__meta__block">
+                            <div class="auth__wrapper__content__form__meta__block__text">Имя:</div>
+                            <div class="auth__wrapper__content__form__meta__block__value" data-id="acc-name">Эрик</div>
+                        </div>
+                        <div class="auth__wrapper__content__form__meta__block">
+                            <div class="auth__wrapper__content__form__meta__block__text">Фамилия:</div>
+                            <div class="auth__wrapper__content__form__meta__block__value" data-id="acc-surname">Эрик</div>
+                        </div>
+                        <div class="auth__wrapper__content__form__meta__block">
+                            <div class="auth__wrapper__content__form__meta__block__text">E-mail:</div>
+                            <div class="auth__wrapper__content__form__meta__block__value" data-id="acc-email">h-eric@mail.ru</div>
+                        </div>
+                    </div>
+                    <div class="auth__wrapper__content__form__logout">Выйти</div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div class="noty" style="top: 150px">
+        <div class="noty__content">
+            <div class="noty__content__text">
+                Заказ удален!
+            </div>
+        </div>
+    </div> -->
+    
+    <script src="./js/bundle.js"></script>
+</body>
+</html>

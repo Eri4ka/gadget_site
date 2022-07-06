@@ -1,0 +1,131 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "model": "IPhone X",
+      "cost": "59900 RUB",
+      "description": "iPhone X с потрясающим корпусом из стекла и великолепным дисплеем Super Retina с диагональю 5,8 дюйма определяет будущее смартфонов.",
+      "images": [
+        {
+          "link": "https://www.apple.com/newsroom/images/product/iphone/standard/iphonex_front_back_glass_big.jpg.large.jpg"
+        },
+        {
+          "link": "https://www.apple.com/newsroom/images/product/iphone/standard/iphonex_front_homescreen_inline.jpg.large.jpg"
+        }
+      ],
+      "chars": {
+        "color": "Белый",
+        "mod": "64 GB"
+      }
+    },
+    {
+      "id": 2,
+      "model": "IPhone 11",
+      "cost": "69900 RUB",
+      "description": "iPhone X с потрясающим корпусом из стекла и великолепным дисплеем Super Retina с диагональю 5,8 дюйма определяет будущее смартфонов.",
+      "images": [
+        {
+          "link": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iphone_11-wallpaper-screen-091019_inline.jpg.large.jpg"
+        },
+        {
+          "link": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone11-black-2019?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1611169026000"
+        }
+      ],
+      "chars": {
+        "color": "Черный",
+        "mod": "64 GB"
+      }
+    },
+    {
+      "id": 3,
+      "model": "IPhone 12",
+      "cost": "79900 RUB",
+      "description": "iPhone X с потрясающим корпусом из стекла и великолепным дисплеем Super Retina с диагональю 5,8 дюйма определяет будущее смартфонов.",
+      "images": [
+        {
+          "link": "https://www.apple.com/newsroom/images/product/iphone/geo/apple_iphone-12_2-up_geo_10132020_inline.jpg.large.jpg"
+        },
+        {
+          "link": "https://www.apple.com/newsroom/images/product/iphone/standard/apple_iphone-12_5g-downloads_10132020_inline.jpg.large.jpg"
+        }
+      ],
+      "chars": {
+        "color": "Синий",
+        "mod": "128 GB"
+      }
+    }
+  ],
+  "categories": [
+    "Телефоны",
+    "Планшеты",
+    "Ноутбуки",
+    "Смарт-часы",
+    "Аксессуары"
+  ],
+  "response": [
+    {
+      "userid": 1,
+      "phone": "89656500385",
+      "email": "khasanoveri@mail.ru",
+      "name": "Erik",
+      "surname": "Hasanov",
+      "ordertitle": "Apple AirPods Pro с зарядным футляром MagSafe",
+      "ordercost": "16990 RUB",
+      "orderimage": "https://images.biggeek.ru/1/435/84ab/15496-4283555.png",
+      "id": 1
+    },
+    {
+      "userid": 1,
+      "phone": "89656500385",
+      "email": "Khasanoveri@mail.ru",
+      "name": "Erik",
+      "surname": "Hasanov",
+      "ordertitle": "Apple AirPods Pro с зарядным футляром MagSafe",
+      "ordercost": "16990 RUB",
+      "orderimage": "https://images.biggeek.ru/1/435/84ab/15496-4283555.png",
+      "id": 2
+    },
+    {
+      "userid": 1,
+      "phone": "89656500385",
+      "email": "Khasanoveri@mail.ru",
+      "name": "Erik",
+      "surname": "Hasanov",
+      "ordertitle": "Наушники Apple AirPods Max (Серебристый | Silver)",
+      "ordercost": "54990 RUB",
+      "orderimage": "https://images.biggeek.ru/1/435/0dd7/14102-69912838-645hq-40.jpeg",
+      "id": 3
+    },
+    {
+      "userid": 1,
+      "phone": "89656500385",
+      "email": "Khasanoveri@mail.ru",
+      "name": "Erik",
+      "surname": "Hasanov",
+      "ordertitle": "IPhone X",
+      "ordercost": "59900 RUB",
+      "orderimage": "https://www.apple.com/newsroom/images/product/iphone/standard/iphonex_front_back_glass_big.jpg.large.jpg",
+      "id": 4
+    },
+    {
+      "userid": 1,
+      "phone": "89656500385",
+      "email": "Khasanoveri@mail.ru",
+      "name": "Erik",
+      "surname": "Hasanov",
+      "ordertitle": "IPhone 12",
+      "ordercost": "79900 RUB",
+      "orderimage": "https://www.apple.com/newsroom/images/product/iphone/geo/apple_iphone-12_2-up_geo_10132020_inline.jpg.large.jpg",
+      "id": 5
+    }
+  ],
+  "user": [
+    {
+      "name": "Эрик",
+      "surname": "Хасанов",
+      "email": "khasanoveri@mail.ru",
+      "pass": "123456",
+      "id": 1
+    }
+  ]
+}

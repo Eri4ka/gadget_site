@@ -1,0 +1,24 @@
+{
+  "name": "gadget",
+  "version": "1.0.0",
+  "description": "gadget site on pure js. server on json-server",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eri4ka/gadget_site.git"
+  },
+  "author": "Erik Hasanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eri4ka/gadget_site/issues"
+  },
+  "homepage": "https://github.com/Eri4ka/gadget_site#readme",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

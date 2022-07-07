@@ -57,7 +57,7 @@ const modal = document.querySelector('.modal'),
             showModalForm();
         
         // Если не авторизован - открывается форма авторизации
-        } else if (localStorage.getItem('autorized') === 'false') {
+        } else {
             renderAuthWrapper('.auth__wrapper__content');
         }
     },
